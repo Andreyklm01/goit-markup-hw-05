@@ -18,8 +18,7 @@
   --social-links-color: #afb1b8;
   --cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* ПЕРЕДЕЛАТЬ КРЕСТИК В МОДАЛКЕ 
-(УБРАТЬ ЧЕРНІЙ КРУГ, СДЕЛАТЬ СЕРЫМ) */
+
 /* GLOBAL */
 body {
   max-width: 1600px;
@@ -120,6 +119,8 @@ img {
 .close-btn-icon {
   width: 30px;
   height: 30px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 /* HEADER */
